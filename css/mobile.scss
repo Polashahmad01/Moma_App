@@ -55,3 +55,22 @@
         }
     }
 }
+
+
+// Section: Meet
+#meet {
+
+    h1 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .card {
+        margin-top: 1rem;
+        flex-direction: column;
+
+        .item {
+            margin: 1rem;
+        }
+    }
+}

@@ -269,3 +269,119 @@ img {
         }
     }
 }
+
+
+// Secion: Meet
+#meet {
+    background: #fff;
+
+    h1 {
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        color: #5B9AB3;
+    }
+
+    .card {
+        display: flex;
+        margin-top: 3rem;
+        justify-content: center;
+        align-items: center;
+
+        .item {
+            margin: 2rem;
+            border: 2px solid #E7EAF4;
+            border-radius: 10px;
+            padding: 0 1rem;
+            box-shadow: 1px 1px 1px 1px rgb(56, 49, 49)F61;
+
+            img {
+                filter: drop-shadow(0 1mm 4mm rgb(213, 168, 163)); 
+                margin: 0.5rem 0;
+            }
+
+            h3 {
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 900;
+                color: #6395A5;
+                margin: 0.5rem 0;
+            }
+
+            h5 {
+                text-align: center;
+                color: #BCCDD4;
+                margin-bottom: 1rem;
+                text-transform: uppercase;
+            }
+
+            p {
+               color: #6291A1;
+               text-align: center;
+               margin-top: -0.6rem;
+               margin-bottom: 1.5rem;
+               font-weight: 900;
+               font-size: 0.9rem;
+            }
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                a {
+                    background: #52A716;
+                    padding: 0.5rem 5rem;
+                    border-radius: 30px;
+                    color: #fff;
+                    margin-bottom: 1rem;
+                    box-shadow: 0 2px 2px 1px rgb(102, 94, 94);
+                    transition: all 0.2s ease-in;
+
+                    &:hover {
+                        background: #F3A513;
+                        transform: scale(1.1);
+                        color: #333;
+                    }
+                }
+            }
+
+            &:first-child,
+            &:last-child {
+                border: none;
+                box-shadow: none;
+
+                div {
+                    
+                    i {
+                        color: #BDCADB;
+                        border: 3px solid #D7DFEA;
+                        padding: 1rem;
+                        border-radius: 50%;
+                        text-align: center;
+                    }
+                }
+            }
+
+            &:last-child {
+                div {
+                    background: linear-gradient(to bottom, #D94916, #FAA329);
+                    border-radius: 50%;
+                    box-shadow: inset 1px 1px #D7DFEA;
+
+                    i {
+                        color: #fff;
+                        border: 3px solid #D7DFEA;
+                        transition: all 0.2s ease-in;
+
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

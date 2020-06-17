@@ -52,4 +52,21 @@
   text-align: center;
   margin: 1rem 0;
 }
+
+#meet h1 {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+#meet .card {
+  margin-top: 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#meet .card .item {
+  margin: 1rem;
+}
 /*# sourceMappingURL=mobile.css.map */

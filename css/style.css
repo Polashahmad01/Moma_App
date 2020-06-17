@@ -310,4 +310,134 @@ img {
   -webkit-box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
           box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
 }
+
+#meet {
+  background: #fff;
+}
+
+#meet h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #5B9AB3;
+}
+
+#meet .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#meet .card .item {
+  margin: 2rem;
+  border: 2px solid #E7EAF4;
+  border-radius: 10px;
+  padding: 0 1rem;
+  -webkit-box-shadow: 1px 1px 1px 1px #383131 F61;
+          box-shadow: 1px 1px 1px 1px #383131 F61;
+}
+
+#meet .card .item img {
+  -webkit-filter: drop-shadow(0 1mm 4mm #d5a8a3);
+          filter: drop-shadow(0 1mm 4mm #d5a8a3);
+  margin: 0.5rem 0;
+}
+
+#meet .card .item h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  color: #6395A5;
+  margin: 0.5rem 0;
+}
+
+#meet .card .item h5 {
+  text-align: center;
+  color: #BCCDD4;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+#meet .card .item p {
+  color: #6291A1;
+  text-align: center;
+  margin-top: -0.6rem;
+  margin-bottom: 1.5rem;
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+#meet .card .item div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#meet .card .item div a {
+  background: #52A716;
+  padding: 0.5rem 5rem;
+  border-radius: 30px;
+  color: #fff;
+  margin-bottom: 1rem;
+  -webkit-box-shadow: 0 2px 2px 1px #665e5e;
+          box-shadow: 0 2px 2px 1px #665e5e;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#meet .card .item div a:hover {
+  background: #F3A513;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #333;
+}
+
+#meet .card .item:first-child, #meet .card .item:last-child {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#meet .card .item:first-child div i, #meet .card .item:last-child div i {
+  color: #BDCADB;
+  border: 3px solid #D7DFEA;
+  padding: 1rem;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#meet .card .item:last-child div {
+  background: -webkit-gradient(linear, left top, left bottom, from(#D94916), to(#FAA329));
+  background: linear-gradient(to bottom, #D94916, #FAA329);
+  border-radius: 50%;
+  -webkit-box-shadow: inset 1px 1px #D7DFEA;
+          box-shadow: inset 1px 1px #D7DFEA;
+}
+
+#meet .card .item:last-child div i {
+  color: #fff;
+  border: 3px solid #D7DFEA;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#meet .card .item:last-child div i:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 /*# sourceMappingURL=style.css.map */
