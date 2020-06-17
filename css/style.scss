@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+
+// Utility Classes
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+
+// Section: Header
+#main-header {
+    background: #C63669;
+    color: #fff;
+    box-shadow: 0 2px 7px 1px #333;
+
+    // Navigation
+    #main-navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 0;
+        font-weight: 900;
+
+        img {
+            width: 15%;
+            cursor: pointer;
+            transition: all 0.2s ease-in;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+
+        ul {
+            display: flex;
+            align-self: center;
+
+            li {
+                transition: all 0.1s ease-in;
+
+                a {
+                    color: #E6286A;
+                    margin: 0 1.2rem;
+                    text-transform: uppercase;    
+                    background: #B22657;
+                    padding: 0.6rem 1rem;
+                    border-radius: 20px;
+                    text-align: center;
+                    box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
+                    transition: all 0.3s ease-in;
+
+                    &:hover {
+                        background: #DD4379;
+                        color: #fff;
+                        box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+                    }
+                }
+
+                &:first-child {
+                    a {
+                        background: #DD4379;
+                        color: #F1DFE7;
+                        box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+                        transition: all 0.3s ease-in;
+
+                        &:hover {
+                            background: #B22657;
+                            box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
+                            color: #E6286A;
+                        }
+
+                    }
+                }
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .social {
+            align-self: center;
+            
+            a {
+                margin: 0 0.8rem;
+
+                i {
+                    color: #fff;
+                    transition: all 0.3s ease-in;
+                    border: 3px solid #F7548D;
+                    padding: 0.5rem;
+                    border-radius: 50%;
+                    text-align: center;
+
+                    &:hover {
+                        transform: rotate(360deg) scale(1.2);
+                        border-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Section: Kids
+#kids {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    color: #fff;
+    font-weight: 900;
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+
+        .item {
+            margin-top: 1.5rem;
+
+            h1 {
+                text-transform: uppercase;
+                font-size: 8rem;
+                line-height: 8rem;
+            }
+
+            img {
+                filter: drop-shadow(0 -5mm 4mm rgb(225, 87, 123));
+            }
+
+            .circle {
+                display: flex;
+                margin-top: 3rem;
+
+                div {
+                    height: 35px;
+                    width: 35px;
+                    background: #A92755;
+                    margin-right: 1rem;
+                    border-radius: 50%;
+                    box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
+                    transition: all 0.2s ease-in;
+
+                    &:first-child {
+                        background: #FA9D64;
+                        border: 4px solid #FFFDFF;
+                        box-shadow: none;
+                        transition: all 0.2s ease-in;
+
+                        &:hover {
+                            background: #A92755;  
+                            box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
+                            border-color: #F6D10F;
+                        }
+                    }
+
+                    &:hover {
+                        background: #FA9D64;
+                        border: 4px solid #FFFDFF;
+                        box-shadow: none;
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+    } 
+
+    .message {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 3rem;
+        position: relative;
+        z-index: 5;
+        border-radius: 5px;
+
+        &::after {
+            content: '';
+            position: absolute;
+            background: url('../img/shocase-message.jpg') no-repeat;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            border-radius: 5px;
+        }
+
+        .item {
+            align-items: center;
+            padding-bottom: 3rem;
+
+            img {
+                width: 70%;
+                margin-top: 1rem;
+                filter: drop-shadow(0 -5mm 4mm rgb(225, 87, 123));
+                transition: all 0.1s ease-in;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+
+            h2 {
+                font-size: 2.4rem;
+                text-transform: uppercase;
+                line-height: 2.5rem;
+                margin-top: 4rem;
+                margin-bottom: 1.5rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+
+                a {
+                    color: #fff;
+                    text-transform: uppercase;
+                    padding: 0.5rem 2rem;
+                    background: #E86C15;
+                    border-radius: 30px;
+                    font-size: 1rem;
+                    border: 4px solid #FBA2C1;
+                    transition: all 0.3s ease-in;
+                    box-shadow: 0 2px 2px 1px #333;
+
+
+                    &:hover {
+                        background: #BB2F61;
+                        color: #F6D10F;
+                        transform: scale(1.1);
+                        border: none;
+                        box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
+                    }
+                }
+            }
+        }
+    }
+}

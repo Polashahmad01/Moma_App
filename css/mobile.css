@@ -1,0 +1,55 @@
+#main-header {
+  display: none;
+}
+
+#kids .card {
+  display: block;
+}
+
+#kids .card .item {
+  margin-top: 1rem;
+}
+
+#kids .card .item h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+#kids .card .item .circle {
+  margin-top: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#kids .message {
+  display: block;
+}
+
+#kids .message::after {
+  display: none;
+}
+
+#kids .message .item {
+  padding-bottom: 1rem;
+}
+
+#kids .message .item img {
+  display: block;
+  margin: auto;
+}
+
+#kids .message .item h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 3rem;
+  margin: 1rem 0;
+}
+
+#kids .message .item p {
+  text-align: center;
+  margin: 1rem 0;
+}
+/*# sourceMappingURL=mobile.css.map */
