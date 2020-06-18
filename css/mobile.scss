@@ -109,3 +109,64 @@
         }
     }
 }
+
+
+
+// Section: Painter
+#painter {
+
+    .card {
+        grid-template-columns: repeat(1, 1fr);
+
+        .item {
+
+            div {
+
+                h1 {
+                    font-size: 2.5rem;
+                    line-height: 2.5rem;
+                    text-align: center;
+                }
+            }
+
+            .wrap {
+                grid-template-columns: repeat(1, 1fr);
+
+                img {
+                    display: block;
+                    margin: auto;
+                }
+
+                .icon {
+
+                    p {
+                        position: unset;
+                        text-align: center;
+                    }
+                }
+            }
+
+            div {
+                
+                a {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+// Section: Footer 
+#main-footer {
+
+    .card {
+        grid-template-columns: repeat(1, 1fr);
+
+        .link,
+        .social {
+            justify-content: center;  
+        }
+    }
+}

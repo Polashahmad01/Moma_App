@@ -99,4 +99,46 @@
 #creator .card .item-image {
   margin-bottom: 1rem;
 }
+
+#painter .card {
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
+#painter .card .item div h1 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+#painter .card .item .wrap {
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
+#painter .card .item .wrap img {
+  display: block;
+  margin: auto;
+}
+
+#painter .card .item .wrap .icon p {
+  position: unset;
+  text-align: center;
+}
+
+#painter .card .item div a {
+  display: none;
+}
+
+#main-footer .card {
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
+#main-footer .card .link,
+#main-footer .card .social {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=mobile.css.map */

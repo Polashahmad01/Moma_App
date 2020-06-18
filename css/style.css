@@ -550,5 +550,201 @@ img {
 
 #creator .card .item-image img {
   width: 95%;
+  -webkit-filter: drop-shadow(0.5mm 1mm 0.5mm #d5a8a3);
+          filter: drop-shadow(0.5mm 1mm 0.5mm #d5a8a3);
+  padding-bottom: 1rem;
+}
+
+#painter {
+  padding-top: 1rem;
+}
+
+#painter .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+#painter .card .img {
+  width: 80%;
+  margin: -5rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+#painter .card .item div {
+  margin: 2rem 0;
+  position: relative;
+}
+
+#painter .card .item div i {
+  color: #92DC62;
+  margin-right: 0.2rem;
+}
+
+#painter .card .item div h5 {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  margin-top: 0.3rem;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #92DC62;
+}
+
+#painter .card .item div h1 {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  line-height: 3.5rem;
+  color: #4DB1FB;
+}
+
+#painter .card .item div h1 span {
+  display: block;
+}
+
+#painter .card .item .wrap {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+#painter .card .item .wrap .icon {
+  position: relative;
+}
+
+#painter .card .item .wrap .icon img {
+  width: 50%;
+}
+
+#painter .card .item .wrap .icon p {
+  position: absolute;
+  top: 1.4rem;
+  left: 6.3rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #AD8080;
+}
+
+#painter .card .item div a {
+  background: #7BDB25;
+  padding: 0.7rem 2rem;
+  border-radius: 40px;
+  color: #fff;
+  border: 4px solid #64C716;
+  font-weight: 900;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#painter .card .item div a:hover {
+  background: #333;
+  border-color: #4DB1FB;
+}
+
+#main-footer {
+  background: #BB2F61;
+}
+
+#main-footer .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+#main-footer .card .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 0.5rem;
+}
+
+#main-footer .card .link a {
+  color: #fff;
+  margin: 0.5rem 0.5rem;
+  background: #B22657;
+  padding: 0.2rem 0.8rem;
+  border-radius: 30px;
+  font-size: 0.7rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  -webkit-box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
+          box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#main-footer .card .link a:first-child {
+  background: #DD4379;
+  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#main-footer .card .link a:first-child:hover {
+  background: #B22657;
+  -webkit-box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
+          box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
+  color: #E6286A;
+}
+
+#main-footer .card .link a:hover {
+  background: #DD4379;
+  color: #fff;
+  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+}
+
+#main-footer .card .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 0.5rem;
+}
+
+#main-footer .card .social a i {
+  color: #fff;
+  margin: 0.5rem 1rem;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#main-footer .card .social a i:hover {
+  color: #92DC62;
+  -webkit-transform: rotate(360deg) scale(1.1);
+          transform: rotate(360deg) scale(1.1);
+}
+
+#main-footer p {
+  font-size: 0.6rem;
+  color: #fff;
+  text-align: center;
+}
+
+#main-footer p a {
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#main-footer p a:hover {
+  color: #92DC62;
 }
 /*# sourceMappingURL=style.css.map */
