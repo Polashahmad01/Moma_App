@@ -69,4 +69,34 @@
 #meet .card .item {
   margin: 1rem;
 }
+
+#creator i {
+  display: none;
+}
+
+#creator h1 {
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+  line-height: 3rem;
+  text-align: center;
+}
+
+#creator h1 span {
+  display: inline;
+}
+
+#creator .card {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#creator .card .item div {
+  position: unset;
+}
+
+#creator .card .item-image {
+  margin-bottom: 1rem;
+}
 /*# sourceMappingURL=mobile.css.map */

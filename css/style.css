@@ -18,10 +18,6 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  text-transform: uppercase;
-}
-
 img {
   width: 100%;
 }
@@ -439,5 +435,120 @@ img {
 #meet .card .item:last-child div i:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+#creator {
+  background: url("../img/background.jpg") no-repeat center center/cover;
+  color: #fff;
+}
+
+#creator i {
+  border: 8px solid #D63D73;
+  padding: 1.5rem;
+  border-radius: 50%;
+  margin-top: 4rem;
+}
+
+#creator h1 {
+  font-size: 3.5rem;
+  line-height: 4rem;
+  text-align: center;
+  margin-top: -9rem;
+}
+
+#creator h1 span {
+  display: block;
+}
+
+#creator .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+}
+
+#creator .card .item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+#creator .card .item i {
+  border: none;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#creator .card .item i:hover {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#creator .card .item div {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 5.9rem;
+  left: 3.8rem;
+}
+
+#creator .card .item div a {
+  color: #FA5792;
+  font-weight: 900;
+  background: #B22657;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  text-align: center;
+  -webkit-box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
+          box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#creator .card .item div a:first-child {
+  background: #DB3E73;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #FBF3F5;
+  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#creator .card .item div a:first-child:hover {
+  background: #B22657;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
+          box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
+}
+
+#creator .card .item div a:hover {
+  background: #DB3E73;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #FBF3F5;
+  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#creator .card .item-image {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+#creator .card .item-image img {
+  width: 95%;
 }
 /*# sourceMappingURL=style.css.map */

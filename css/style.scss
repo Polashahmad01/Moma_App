@@ -17,10 +17,6 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    text-transform: uppercase;
-}
-
 img {
     width: 100%;
 }
@@ -381,6 +377,101 @@ img {
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+
+// Section: Creator
+#creator {
+    background: url('../img/background.jpg') no-repeat center center/cover;
+    color: #fff;
+
+    i {
+        border: 8px solid #D63D73;
+        padding: 1.5rem;
+        border-radius: 50%;
+        margin-top: 4rem;
+
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+        text-align: center;
+        margin-top: -9rem;
+
+        span {
+            display: block;
+        }
+    }
+
+    .card {
+        display: flex;
+        margin-top: 1rem;
+
+        .item {
+            flex: 1;
+            position: relative;
+
+            i {
+                border: none;
+                transition: all 0.2s ease-in;
+
+                &:hover {
+                    transform: rotate(90deg);
+                }
+            }
+
+            div {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                top: 5.9rem;
+                left: 3.8rem;
+
+                a {
+                    color: #FA5792;
+                    font-weight: 900;
+                    background: #B22657;
+                    margin-bottom: 1rem;
+                    padding: 0.5rem 1.5rem;
+                    border-radius: 20px;
+                    text-align: center;
+                    box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
+                    transition: all 0.2s ease-in;
+
+                    &:first-child {
+                        background: #DB3E73;
+                        box-shadow: none;
+                        color: #FBF3F5;
+                        box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+                        transition: all 0.2s ease-in;
+
+                        &:hover {
+                            background: #B22657;
+                            box-shadow: none;
+                            box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
+                        }
+                    }
+
+                    &:hover {
+                        background: #DB3E73;
+                        box-shadow: none;
+                        color: #FBF3F5;
+                        box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;                        
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+
+        .item-image {
+            flex: 4;
+
+            img {
+                width: 95%;
             }
         }
     }
