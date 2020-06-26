@@ -27,11 +27,10 @@ img {
   margin: auto;
   padding: 0 1rem;
   overflow: hidden;
-  position: relative;
 }
 
 #main-header {
-  background: #C63669;
+  background: #c63669;
   color: #fff;
   -webkit-box-shadow: 0 2px 7px 1px #333;
           box-shadow: 0 2px 7px 1px #333;
@@ -60,6 +59,10 @@ img {
           transform: scale(1.2);
 }
 
+#main-header #main-navbar .fas {
+  display: none;
+}
+
 #main-header #main-navbar ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -74,40 +77,40 @@ img {
 }
 
 #main-header #main-navbar ul li a {
-  color: #E6286A;
+  color: #e6286a;
   margin: 0 1.2rem;
   text-transform: uppercase;
-  background: #B22657;
+  background: #b22657;
   padding: 0.6rem 1rem;
   border-radius: 20px;
   text-align: center;
-  -webkit-box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
-          box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
+  -webkit-box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #b22657;
+          box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #b22657;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
 
 #main-header #main-navbar ul li a:hover {
-  background: #DD4379;
+  background: #dd4379;
   color: #fff;
-  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
-          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+  -webkit-box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
+          box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
 }
 
 #main-header #main-navbar ul li:first-child a {
-  background: #DD4379;
-  color: #F1DFE7;
-  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
-          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+  background: #dd4379;
+  color: #f1dfe7;
+  -webkit-box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
+          box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
 }
 
 #main-header #main-navbar ul li:first-child a:hover {
-  background: #B22657;
-  -webkit-box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
-          box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
-  color: #E6286A;
+  background: #b22657;
+  -webkit-box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #b22657;
+          box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #b22657;
+  color: #e6286a;
 }
 
 #main-header #main-navbar ul li:hover {
@@ -129,7 +132,7 @@ img {
   color: #fff;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
-  border: 3px solid #F7548D;
+  border: 3px solid #f7548d;
   padding: 0.5rem;
   border-radius: 50%;
   text-align: center;
@@ -138,6 +141,8 @@ img {
 #main-header #main-navbar .social a i:hover {
   -webkit-transform: rotate(360deg) scale(1.2);
           transform: rotate(360deg) scale(1.2);
+  -webkit-box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
+          box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
   border-color: #fff;
 }
 
@@ -180,18 +185,18 @@ img {
 #kids .card .item .circle div {
   height: 35px;
   width: 35px;
-  background: #A92755;
+  background: #a92755;
   margin-right: 1rem;
   border-radius: 50%;
-  -webkit-box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
-          box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
+  -webkit-box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #b22657;
+          box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #b22657;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
 #kids .card .item .circle div:first-child {
-  background: #FA9D64;
-  border: 4px solid #FFFDFF;
+  background: #fa9d64;
+  border: 4px solid #fffdff;
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transition: all 0.2s ease-in;
@@ -199,15 +204,15 @@ img {
 }
 
 #kids .card .item .circle div:first-child:hover {
-  background: #A92755;
-  -webkit-box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
-          box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
-  border-color: #F6D10F;
+  background: #a92755;
+  -webkit-box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #b22657;
+          box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #b22657;
+  border-color: #f6d10f;
 }
 
 #kids .card .item .circle div:hover {
-  background: #FA9D64;
-  border: 4px solid #FFFDFF;
+  background: #fa9d64;
+  border: 4px solid #fffdff;
   -webkit-box-shadow: none;
           box-shadow: none;
   -webkit-transform: scale(1.2);
@@ -226,12 +231,12 @@ img {
 }
 
 #kids .message::after {
-  content: '';
+  content: "";
   position: absolute;
   background: url("../img/shocase-message.jpg") no-repeat;
   top: 0;
   left: 0;
-  height: 100%;
+  height: 80%;
   width: 100%;
   z-index: -1;
   border-radius: 5px;
@@ -245,8 +250,9 @@ img {
 }
 
 #kids .message .item img {
-  width: 70%;
-  margin-top: 1rem;
+  width: 55%;
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
   -webkit-filter: drop-shadow(0 -5mm 4mm #e1577b);
           filter: drop-shadow(0 -5mm 4mm #e1577b);
   -webkit-transition: all 0.1s ease-in;
@@ -259,15 +265,16 @@ img {
 }
 
 #kids .message .item h2 {
-  font-size: 2.4rem;
+  font-size: 2rem;
   text-transform: uppercase;
   line-height: 2.5rem;
-  margin-top: 4rem;
-  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 #kids .message .item p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 #kids .message .item div {
@@ -284,27 +291,45 @@ img {
 }
 
 #kids .message .item div a {
+  position: relative;
   color: #fff;
-  text-transform: uppercase;
-  padding: 0.5rem 2rem;
-  background: #E86C15;
-  border-radius: 30px;
+  background: #e46f10;
   font-size: 1rem;
-  border: 4px solid #FBA2C1;
+  padding: 0.4rem 1.5rem;
+  padding-right: 3rem;
+  border-radius: 30px;
+  border: 4px solid #fb9fc1;
+  text-transform: uppercase;
+  font-weight: bolder;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
-  -webkit-box-shadow: 0 2px 2px 1px #333;
-          box-shadow: 0 2px 2px 1px #333;
+}
+
+#kids .message .item div a div {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  padding: 1.1rem 0.5rem;
+  background: #fbb91d;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+#kids .message .item div a div i {
+  font-size: 1.5rem;
+  text-align: right;
+  color: #fff;
+}
+
+#kids .message .item div a div:hover {
+  background: #333;
 }
 
 #kids .message .item div a:hover {
-  background: #BB2F61;
-  color: #F6D10F;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  background: #f484e5;
+  color: #333;
   border: none;
-  -webkit-box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
-          box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
 }
 
 #meet {
@@ -317,7 +342,7 @@ img {
   margin-top: 3rem;
   font-size: 4rem;
   margin-bottom: 1rem;
-  color: #5B9AB3;
+  color: #5b9ab3;
 }
 
 #meet .card {
@@ -335,7 +360,7 @@ img {
 
 #meet .card .item {
   margin: 2rem;
-  border: 2px solid #E7EAF4;
+  border: 2px solid #e7eaf4;
   border-radius: 10px;
   padding: 0 1rem;
   -webkit-box-shadow: 1px 1px 1px 1px #383131 F61;
@@ -352,19 +377,19 @@ img {
   text-transform: uppercase;
   text-align: center;
   font-weight: 900;
-  color: #6395A5;
+  color: #6395a5;
   margin: 0.5rem 0;
 }
 
 #meet .card .item h5 {
   text-align: center;
-  color: #BCCDD4;
+  color: #bccdd4;
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
 
 #meet .card .item p {
-  color: #6291A1;
+  color: #6291a1;
   text-align: center;
   margin-top: -0.6rem;
   margin-bottom: 1.5rem;
@@ -385,22 +410,26 @@ img {
 }
 
 #meet .card .item div a {
-  background: #52A716;
-  padding: 0.5rem 5rem;
-  border-radius: 30px;
+  background: #f3a513;
+  padding: 0.5rem 4rem;
+  border-radius: 20px;
+  margin-bottom: 0.5rem;
+  border: 1px solid #e6f1e9;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#meet .card .item div a i {
+  font-size: 1.5rem;
   color: #fff;
-  margin-bottom: 1rem;
-  -webkit-box-shadow: 0 2px 2px 1px #665e5e;
-          box-shadow: 0 2px 2px 1px #665e5e;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+}
+
+#meet .card .item div a i:hover {
+  color: #333;
 }
 
 #meet .card .item div a:hover {
-  background: #F3A513;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  color: #333;
+  background: #bb2f61;
 }
 
 #meet .card .item:first-child, #meet .card .item:last-child {
@@ -410,24 +439,24 @@ img {
 }
 
 #meet .card .item:first-child div i, #meet .card .item:last-child div i {
-  color: #BDCADB;
-  border: 3px solid #D7DFEA;
+  color: #bdcadb;
+  border: 3px solid #d7dfea;
   padding: 1rem;
   border-radius: 50%;
   text-align: center;
 }
 
 #meet .card .item:last-child div {
-  background: -webkit-gradient(linear, left top, left bottom, from(#D94916), to(#FAA329));
-  background: linear-gradient(to bottom, #D94916, #FAA329);
+  background: -webkit-gradient(linear, left top, left bottom, from(#d94916), to(#faa329));
+  background: linear-gradient(to bottom, #d94916, #faa329);
   border-radius: 50%;
-  -webkit-box-shadow: inset 1px 1px #D7DFEA;
-          box-shadow: inset 1px 1px #D7DFEA;
+  -webkit-box-shadow: inset 1px 1px #d7dfea;
+          box-shadow: inset 1px 1px #d7dfea;
 }
 
 #meet .card .item:last-child div i {
   color: #fff;
-  border: 3px solid #D7DFEA;
+  border: 3px solid #d7dfea;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
@@ -443,7 +472,7 @@ img {
 }
 
 #creator i {
-  border: 8px solid #D63D73;
+  border: 8px solid #d63d73;
   padding: 1.5rem;
   border-radius: 50%;
   margin-top: 4rem;
@@ -499,45 +528,45 @@ img {
 }
 
 #creator .card .item div a {
-  color: #FA5792;
+  color: #fa5792;
   font-weight: 900;
-  background: #B22657;
+  background: #b22657;
   margin-bottom: 1rem;
   padding: 0.5rem 1.5rem;
   border-radius: 20px;
   text-align: center;
-  -webkit-box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
-          box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
+  -webkit-box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
+          box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
 #creator .card .item div a:first-child {
-  background: #DB3E73;
+  background: #db3e73;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #FBF3F5;
-  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
-          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+  color: #fbf3f5;
+  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #b22657;
+          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #b22657;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
 #creator .card .item div a:first-child:hover {
-  background: #B22657;
+  background: #b22657;
   -webkit-box-shadow: none;
           box-shadow: none;
-  -webkit-box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
-          box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
+  -webkit-box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
+          box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
 }
 
 #creator .card .item div a:hover {
-  background: #DB3E73;
+  background: #db3e73;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #FBF3F5;
-  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
-          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+  color: #fbf3f5;
+  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #b22657;
+          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #b22657;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -569,8 +598,6 @@ img {
 #painter .card .img {
   width: 80%;
   margin: -5rem 0;
-  position: relative;
-  z-index: 1;
 }
 
 #painter .card .item div {
@@ -579,7 +606,7 @@ img {
 }
 
 #painter .card .item div i {
-  color: #92DC62;
+  color: #92dc62;
   margin-right: 0.2rem;
 }
 
@@ -590,14 +617,14 @@ img {
   margin-top: 0.3rem;
   font-size: 2rem;
   font-weight: 900;
-  color: #92DC62;
+  color: #92dc62;
 }
 
 #painter .card .item div h1 {
   font-size: 3.5rem;
   margin-top: 2rem;
   line-height: 3.5rem;
-  color: #4DB1FB;
+  color: #4db1fb;
 }
 
 #painter .card .item div h1 span {
@@ -625,15 +652,15 @@ img {
   left: 6.3rem;
   font-size: 0.8rem;
   line-height: 1rem;
-  color: #AD8080;
+  color: #ad8080;
 }
 
 #painter .card .item div a {
-  background: #7BDB25;
+  background: #7bdb25;
   padding: 0.7rem 2rem;
   border-radius: 40px;
   color: #fff;
-  border: 4px solid #64C716;
+  border: 4px solid #64c716;
   font-weight: 900;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease-in;
@@ -642,11 +669,11 @@ img {
 
 #painter .card .item div a:hover {
   background: #333;
-  border-color: #4DB1FB;
+  border-color: #4db1fb;
 }
 
 #main-footer {
-  background: #BB2F61;
+  background: #bb2f61;
 }
 
 #main-footer .card {
@@ -672,38 +699,38 @@ img {
 #main-footer .card .link a {
   color: #fff;
   margin: 0.5rem 0.5rem;
-  background: #B22657;
+  background: #b22657;
   padding: 0.2rem 0.8rem;
   border-radius: 30px;
   font-size: 0.7rem;
   font-weight: 900;
   text-transform: uppercase;
-  -webkit-box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
-          box-shadow: inset 2px 2px 2px 1px #831e41, inset -2px -2px 2px 1px #B22657;
+  -webkit-box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
+          box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
 #main-footer .card .link a:first-child {
-  background: #DD4379;
-  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
-          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+  background: #dd4379;
+  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #b22657;
+          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #b22657;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
 #main-footer .card .link a:first-child:hover {
-  background: #B22657;
-  -webkit-box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
-          box-shadow: inset 1px 1px 1px 1px #831e41, inset -1px -1px 1px 1px #B22657;
-  color: #E6286A;
+  background: #b22657;
+  -webkit-box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
+          box-shadow: 0px 2px 6px -1px #fff, -0px -2px 6px -1px #fff;
+  color: #fff;
 }
 
 #main-footer .card .link a:hover {
-  background: #DD4379;
+  background: #dd4379;
   color: #fff;
-  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
-          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #B22657;
+  -webkit-box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #b22657;
+          box-shadow: 1px 1px 1px 1px #831e41, -1px -1px 1px 1px #b22657;
 }
 
 #main-footer .card .social {
@@ -727,7 +754,7 @@ img {
 }
 
 #main-footer .card .social a i:hover {
-  color: #92DC62;
+  color: #92dc62;
   -webkit-transform: rotate(360deg) scale(1.1);
           transform: rotate(360deg) scale(1.1);
 }
@@ -745,6 +772,6 @@ img {
 }
 
 #main-footer p a:hover {
-  color: #92DC62;
+  color: #92dc62;
 }
 /*# sourceMappingURL=style.css.map */

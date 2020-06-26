@@ -1,4 +1,24 @@
-#main-header {
+#main-header #main-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main-header #main-navbar img {
+  display: block;
+  width: 40%;
+}
+
+#main-header #main-navbar .fas {
+  display: block;
+  padding: 0.5rem;
+}
+
+#main-header #main-navbar ul {
+  display: none;
+}
+
+#main-header #main-navbar .social {
   display: none;
 }
 

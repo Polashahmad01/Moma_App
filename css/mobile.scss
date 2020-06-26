@@ -1,172 +1,176 @@
 // Section: Navigation
 #main-header {
-    display: none;
-}
+  #main-navbar {
+    display: flex;
 
+    img {
+      display: block;
+      width: 40%;
+    }
+
+    .fas {
+      display: block;
+      padding: 0.5rem;
+    }
+
+    ul {
+      display: none;
+    }
+
+    .social {
+      display: none;
+    }
+  }
+}
 
 // Section: Kids
 #kids {
-    .card {
-        display: block;
+  .card {
+    display: block;
 
-        .item {
-            margin-top: 1rem;
+    .item {
+      margin-top: 1rem;
 
-            h1 {
-                font-size: 2.5rem;
-                text-align: center;
-                line-height: 3rem;
-            }
+      h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 3rem;
+      }
 
-            .circle {
-                margin-top: 1rem;
-                justify-content: center;
-                margin-bottom: 1rem;
-            }
-        }
+      .circle {
+        margin-top: 1rem;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .message {
+    display: block;
+
+    &::after {
+      display: none;
     }
 
-    .message {
+    .item {
+      padding-bottom: 1rem;
+
+      img {
         display: block;
+        margin: auto;
+      }
 
-        &::after {
-            display: none;
-        }
+      h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 3rem;
+        margin: 1rem 0;
+      }
 
-        .item {
-            padding-bottom: 1rem;
-
-            img {
-                display: block;
-                margin: auto;
-            }
-
-            h2 {
-                font-size: 2.5rem;
-                text-align: center;
-                line-height: 3rem;
-                margin: 1rem 0;
-            }
-
-            p {
-                text-align: center;
-                margin: 1rem 0;
-            }
-        }
+      p {
+        text-align: center;
+        margin: 1rem 0;
+      }
     }
+  }
 }
-
 
 // Section: Meet
 #meet {
+  h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
 
-    h1 {
-        font-size: 2rem;
-        margin-top: 2rem;
+  .card {
+    margin-top: 1rem;
+    flex-direction: column;
+
+    .item {
+      margin: 1rem;
     }
-
-    .card {
-        margin-top: 1rem;
-        flex-direction: column;
-
-        .item {
-            margin: 1rem;
-        }
-    }
+  }
 }
-
 
 // Section: Creator
 #creator {
+  i {
+    display: none;
+  }
 
-    i {
-        display: none;
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+
+    span {
+      display: inline;
+    }
+  }
+
+  .card {
+    flex-direction: column;
+
+    .item {
+      div {
+        position: unset;
+      }
     }
 
-    h1 {
-        font-size: 2.5rem;
-        margin-top: 1.5rem;
-        line-height: 3rem;
-        text-align: center;
-
-        span {
-            display: inline;
-        }
+    .item-image {
+      margin-bottom: 1rem;
     }
-
-    .card {
-        flex-direction: column;
-
-        .item {
-
-            div {
-                position: unset;
-            }
-        }
-
-        .item-image {
-            margin-bottom: 1rem;
-        }
-    }
+  }
 }
-
-
 
 // Section: Painter
 #painter {
+  .card {
+    grid-template-columns: repeat(1, 1fr);
 
-    .card {
+    .item {
+      div {
+        h1 {
+          font-size: 2.5rem;
+          line-height: 2.5rem;
+          text-align: center;
+        }
+      }
+
+      .wrap {
         grid-template-columns: repeat(1, 1fr);
 
-        .item {
-
-            div {
-
-                h1 {
-                    font-size: 2.5rem;
-                    line-height: 2.5rem;
-                    text-align: center;
-                }
-            }
-
-            .wrap {
-                grid-template-columns: repeat(1, 1fr);
-
-                img {
-                    display: block;
-                    margin: auto;
-                }
-
-                .icon {
-
-                    p {
-                        position: unset;
-                        text-align: center;
-                    }
-                }
-            }
-
-            div {
-                
-                a {
-                    display: none;
-                }
-            }
+        img {
+          display: block;
+          margin: auto;
         }
+
+        .icon {
+          p {
+            position: unset;
+            text-align: center;
+          }
+        }
+      }
+
+      div {
+        a {
+          display: none;
+        }
+      }
     }
+  }
 }
 
-
-
-// Section: Footer 
+// Section: Footer
 #main-footer {
+  .card {
+    grid-template-columns: repeat(1, 1fr);
 
-    .card {
-        grid-template-columns: repeat(1, 1fr);
-
-        .link,
-        .social {
-            justify-content: center;  
-        }
+    .link,
+    .social {
+      justify-content: center;
     }
+  }
 }
